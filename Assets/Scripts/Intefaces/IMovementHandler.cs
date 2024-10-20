@@ -7,5 +7,6 @@ namespace TA_AKD
     public interface IMovementHandler
     {
         void Move(Vector3 direction);
+        void Rotate(Vector2 rotation);
     }
 }

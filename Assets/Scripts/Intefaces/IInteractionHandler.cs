@@ -6,6 +6,7 @@ namespace TA_AKD
 {
     public interface IInteractionHandler
     {
+        string ShowInteractionText();
         void HandleInteraction();
     }
 }

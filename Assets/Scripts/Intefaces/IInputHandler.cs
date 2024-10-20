@@ -8,5 +8,6 @@ namespace TA_AKD
     {
         bool IsPickKeyPressed();
         Vector3 GetMovementInput();
+        Vector2 GetRotationInput();
     }
 }

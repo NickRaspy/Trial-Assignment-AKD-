@@ -1,12 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.Events;
 
 namespace TA_AKD
 {
-    public interface IPickable 
+    public interface IInteract
     {
-        void OnPick();
+        string InteractionText { get; }
+        void Interact();
     }
 }
